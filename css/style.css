@@ -179,7 +179,9 @@ height: 80px;
     background-color: rgb(2, 2, 27);
     
  }
- h1{
+ h1,
+ h2,
+ h3 {
     color: #fff;
     margin-left: auto;
     margin-right: auto;
@@ -199,10 +201,19 @@ img {
     height: auto;
 
 }
-p{
+.main {
     color: #fff;
     position: relative;
     margin-left: auto;
     margin-right: auto;
 
 }
+
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+    color: #fff;
+    height: auto;
+    margin: auto;
+    width: auto;
+  }
